@@ -24,6 +24,7 @@ source $HOME/.aliases
 alias python="/opt/homebrew/bin/python3"
 alias pip="/opt/homebrew/bin/pip3"
 alias typora="open -a typora"
+alias gcc="gcc-10"
 eval "$(thefuck --alias)"
 
 # Tokens
@@ -55,3 +56,4 @@ export PATH="/usr/local/sbin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
